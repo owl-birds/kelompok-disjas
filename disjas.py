@@ -51,7 +51,7 @@ with stats_container:
 	st.write("source : https://finance.yahoo.com/quote/UNVR.JK/history")
 	# st.dataframe(disjas_data)
 	year_1 = st.number_input("from", value=2010, min_value=2010, max_value=2020, step=1)
-	year_2 = st.number_input("to", value=year_1+1, min_value=year_1+1, max_value=2021, step=1)
+	year_2 = st.number_input("to", value=2010+1, min_value=year_1+1, max_value=2021, step=1)
 	st.write(f" # Data Periode {year_1} - {year_2} ")
 	# extracting data from dataset
 	i = 0
