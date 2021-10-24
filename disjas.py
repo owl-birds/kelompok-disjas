@@ -43,9 +43,6 @@ with header_container:
 
 
 
-# linear regress
-from sklearn.linear_model import LinearRegression
-regressor = LinearRegression()
 
 
 # Another container
